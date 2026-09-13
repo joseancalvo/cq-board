@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Política de privacidad — CQ Board</title>
+  <meta name="description" content="Política de privacidad de la app CQ Board para radioaficionados." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">CQ <span>Board</span></a>
+      <nav class="nav" aria-label="Principal">
+        <a href="index.html">Inicio</a>
+        <a href="index.html#soporte">Soporte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap prose">
+    <h1>Política de privacidad</h1>
+    <p class="meta">App: CQ Board · Última actualización: 4 de septiembre de 2026 · Responsable: EA2EYI</p>
+
+    <p>
+      Esta política describe cómo la aplicación <strong>CQ Board</strong> trata la información
+      en iOS y Android. Está pensada para cumplir lo que piden App Store y Google Play
+      cuando la app no crea cuentas ni envía datos a un servidor propio.
+    </p>
+
+    <h2>1. Quién es el responsable</h2>
+    <p>
+      Desarrollador: Jose (indicativo EA2EYI), autor de CQ Board.
+      Contacto de privacidad y soporte:
+      <!-- Sustituye por el email real antes de publicar en las tiendas -->
+      <a href="mailto:joseangelcalvo5@gmail.com">joseangelcalvo5@gmail.com</a>.
+    </p>
+
+    <h2>2. Qué datos trata la app</h2>
+    <ul>
+      <li>
+        <strong>Notas y texto que escribes</strong> (referencias SOTA/POTA, grids, apuntes).
+        Se guardan solo en el almacenamiento local del dispositivo.
+      </li>
+      <li>
+        <strong>Preferencias de la app</strong> (por ejemplo tema claro/oscuro), también en local.
+      </li>
+      <li>
+        <strong>Ubicación (GPS)</strong>, solo si pides convertir tu posición a un localizador Maidenhead.
+        El cálculo se hace en el dispositivo. CQ Board no sube esa ubicación a un servidor nuestro.
+      </li>
+      <li>
+        <strong>Hora</strong>: la app muestra UTC y hora local usando el reloj del sistema. No es un dato que enviemos.
+      </li>
+    </ul>
+
+    <h2>3. Qué no hacemos</h2>
+    <ul>
+      <li>No creamos cuentas de usuario.</li>
+      <li>No exigimos registro ni inicio de sesión.</li>
+      <li>No obligamos a tener conexión a internet para usar las funciones principales.</li>
+      <li>No vendemos datos ni los usamos para publicidad personalizada.</li>
+      <li>No tenemos un backend propio de CQ Board que recopile tus notas o tu GPS.</li>
+    </ul>
+
+    <h2>4. Permisos</h2>
+    <p>
+      En iOS y Android, el permiso de <strong>ubicación</strong> se solicita cuando (y solo cuando)
+      usas la función GPS → Maidenhead. Puedes denegarlo: el resto de la app sigue funcionando
+      (relojes y notas).
+    </p>
+
+    <h2>5. Servicios de terceros</h2>
+    <p>
+      La app no integra redes sociales ni analítica propia descrita aquí.
+      La distribución pasa por Apple App Store y/o Google Play; esas plataformas tienen sus propias políticas
+      cuando descargas o actualizas la app.
+    </p>
+    <p>
+      Si en el futuro se añade un servicio de terceros (por ejemplo informes de fallo),
+      se actualizará esta página antes o al mismo tiempo.
+    </p>
+
+    <h2>6. Conservación y borrado</h2>
+    <p>
+      Los datos locales permanecen en tu dispositivo hasta que los borres dentro de la app
+      o desinstales CQ Board. Desinstalar elimina el almacenamiento local de la aplicación.
+    </p>
+
+    <h2>7. Menores</h2>
+    <p>
+      CQ Board no está dirigida a menores de 13 años y no recopila datos de forma consciente
+      para ese público.
+    </p>
+
+    <h2>8. Cambios</h2>
+    <p>
+      Si cambia el tratamiento de datos, actualizaremos esta política y la fecha de “última actualización”.
+      La versión publicada en esta web es la de referencia para las tiendas.
+    </p>
+
+    <h2>9. Contacto</h2>
+    <p>
+      Para preguntas sobre privacidad: <a href="mailto:joseangelcalvo5@gmail.com">joseangelcalvo5@gmail.com</a>.
+    </p>
+
+    <p><a href="index.html">← Volver a CQ Board</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="y"></span> CQ Board · EA2EYI</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

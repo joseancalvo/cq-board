@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CQ Board — Reloj UTC y notas para radioaficionados</title>
+  <meta name="description" content="CQ Board: reloj UTC y hora local, notas SOTA/POTA y localizador Maidenhead. App sencilla para radioaficionados. Sin cuenta." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">CQ <span>Board</span></a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#funciones">Funciones</a>
+        <a href="#capturas">Capturas</a>
+        <a href="#privacidad">Privacidad</a>
+        <a href="#soporte">Soporte</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <p class="badge-pill">Para radioaficionados · EA2EYI</p>
+        <h1>CQ Board</h1>
+        <p class="tagline">UTC, notas de activación y Maidenhead, en una sola pantalla.</p>
+        <p class="lead">
+          App sencilla para SOTA, POTA y el día a día en radio:
+          dos relojes (UTC y hora local, formato 24&nbsp;h), un bloc de notas
+          para referencias y grid locators, y conversión GPS → Maidenhead cuando la necesites.
+          Todo se guarda en el móvil. Sin cuenta.
+        </p>
+
+        <div class="store-row">
+          <!-- Sustituye href="#" por la URL real de App Store cuando la tengas -->
+          <a class="btn btn--disabled" href="#" aria-disabled="true" id="btn-ios">
+            App Store — próximamente
+          </a>
+          <!-- Sustituye href="#" por la URL real de Google Play cuando la tengas -->
+          <a class="btn btn--disabled" href="#" aria-disabled="true" id="btn-android">
+            Google Play — próximamente
+          </a>
+        </div>
+        <p class="hint">Los enlaces de tienda se activan cuando haya URL pública.</p>
+      </div>
+    </section>
+
+    <section id="funciones">
+      <div class="wrap">
+        <h2>Qué hace</h2>
+        <ul class="features">
+          <li><strong>Relojes UTC y local</strong> — formato 24 horas, a la vista.</li>
+          <li><strong>Bloc de notas</strong> — referencias SOTA, POTA, grids Maidenhead y lo que necesites en la activación.</li>
+          <li><strong>GPS → Maidenhead</strong> — solo cuando lo pides; la ubicación no se sube a ningún servidor.</li>
+          <li><strong>Tema luna / sol</strong> — cómodo de noche y de día.</li>
+          <li><strong>Persistencia local</strong> — tus notas se quedan en el dispositivo.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="no-hace">
+      <div class="wrap card">
+        <h2>Qué no hace</h2>
+        <ul class="not-list">
+          <li>No pide cuenta ni registro.</li>
+          <li>No obliga a tener red (funciona sin internet).</li>
+          <li>No publica logs ni contactos a la nube.</li>
+          <li>No es un logger completo ni un mapa de activaciones.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="capturas">
+      <div class="wrap">
+        <h2>Capturas</h2>
+        <p class="hint" style="margin-bottom: 1rem;">Placeholders. Cuando tengas pantallazos, cámbialos en la carpeta <code>assets/</code>.</p>
+        <div class="shots">
+          <div class="shot">Captura 1<br />Relojes</div>
+          <div class="shot">Captura 2<br />Notas</div>
+          <div class="shot">Captura 3<br />Maidenhead</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="privacidad">
+      <div class="wrap card">
+        <h2>Privacidad</h2>
+        <p>
+          CQ Board guarda datos en tu dispositivo. El GPS solo se usa si pides el localizador Maidenhead.
+          No hay cuenta ni envío obligatorio a servidores.
+        </p>
+        <p><a href="privacy.html">Leer la política de privacidad completa →</a></p>
+      </div>
+    </section>
+
+    <section id="soporte">
+      <div class="wrap">
+        <h2>Soporte</h2>
+        <div class="card">
+          <p>
+            ¿Dudas o un fallo?
+            <!-- Cambia por tu email de soporte real -->
+            Escribe a <a href="mailto:joseangelcalvo5@gmail.com">joseangelcalvo5@gmail.com</a>
+            (sustituye este correo por el tuyo).
+          </p>
+          <p class="hint">Indicativo del desarrollador: EA2EYI</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="y"></span> CQ Board · Built with ♥ by EA2EYI</p>
+      <p>
+        <a href="privacy.html">Privacidad</a>
+        ·
+        <a href="#soporte">Soporte</a>
+      </p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
