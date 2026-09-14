@@ -6,11 +6,15 @@
   <title>CQ Board — Reloj UTC y notas para radioaficionados</title>
   <meta name="description" content="CQ Board: reloj UTC y hora local, notas SOTA/POTA y localizador Maidenhead. App sencilla para radioaficionados. Sin cuenta." />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="assets/CQBoard-icon.png" />
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <a class="logo" href="index.html">CQ <span>Board</span></a>
+      <a class="logo" href="index.html">
+        <img src="assets/CQBoard-icon.png" alt="CQ Board" class="logo-icon" />
+        CQ <span>Board</span>
+      </a>
       <nav class="nav" aria-label="Principal">
         <a href="#funciones">Funciones</a>
         <a href="#capturas">Capturas</a>
@@ -34,16 +38,15 @@
         </p>
 
         <div class="store-row">
-          <!-- Sustituye href="#" por la URL real de App Store cuando la tengas -->
-          <a class="btn btn--disabled" href="#" aria-disabled="true" id="btn-ios">
-            App Store — próximamente
+          <a class="btn btn--primary" href="https://apps.apple.com/es/app/cq-board/id6807329150" target="_blank" rel="noopener noreferrer" id="btn-ios">
+            Descargar en App Store
           </a>
           <!-- Sustituye href="#" por la URL real de Google Play cuando la tengas -->
           <a class="btn btn--disabled" href="#" aria-disabled="true" id="btn-android">
             Google Play — próximamente
           </a>
         </div>
-        <p class="hint">Los enlaces de tienda se activan cuando haya URL pública.</p>
+        <p class="hint">Versión para Android próximamente.</p>
       </div>
     </section>
 
@@ -75,11 +78,19 @@
     <section id="capturas">
       <div class="wrap">
         <h2>Capturas</h2>
-        <p class="hint" style="margin-bottom: 1rem;">Placeholders. Cuando tengas pantallazos, cámbialos en la carpeta <code>assets/</code>.</p>
         <div class="shots">
-          <div class="shot">Captura 1<br />Relojes</div>
-          <div class="shot">Captura 2<br />Notas</div>
-          <div class="shot">Captura 3<br />Maidenhead</div>
+          <figure class="shot-item">
+            <img class="shot-img" src="assets/IMG_3526.PNG" alt="CQ Board — Pantalla principal con relojes UTC y local, y notas de activación" loading="lazy" />
+            <figcaption>Relojes y notas de activación</figcaption>
+          </figure>
+          <figure class="shot-item">
+            <img class="shot-img" src="assets/IMG_3527.PNG" alt="CQ Board — Modo noche con tema oscuro" loading="lazy" />
+            <figcaption>Modo noche (tema oscuro)</figcaption>
+          </figure>
+          <figure class="shot-item">
+            <img class="shot-img" src="assets/IMG_3528.PNG" alt="CQ Board — Modo día con tema claro" loading="lazy" />
+            <figcaption>Modo día (tema claro)</figcaption>
+          </figure>
         </div>
       </div>
     </section>

@@ -1,12 +1,12 @@
 /* CQ Board — GitHub Pages */
 :root {
-  --bg: #0b1220;
-  --bg-card: #121a2b;
-  --text: #e8eef8;
-  --muted: #9aa8c0;
-  --accent: #5eb0ff;
-  --accent-2: #f0c14b;
-  --line: #243049;
+  --bg: #141716;
+  --bg-card: #1c2220;
+  --text: #eff3f1;
+  --muted: #9aa5a0;
+  --accent: #e5b438;
+  --accent-2: #f3c64f;
+  --line: #2b3531;
   --ok: #6bcf8e;
   --radius: 14px;
   --max: 720px;
@@ -71,14 +71,31 @@ img {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
   font-weight: 700;
   letter-spacing: 0.02em;
   color: var(--text);
   text-decoration: none;
 }
 
+.logo:hover {
+  text-decoration: none;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  flex-shrink: 0;
+}
+
 .logo span {
-  color: var(--accent-2);
+  color: var(--accent);
 }
 
 .nav {
@@ -105,11 +122,13 @@ img {
 .badge-pill {
   display: inline-block;
   font-size: 0.8rem;
-  color: var(--accent-2);
-  border: 1px solid color-mix(in srgb, var(--accent-2) 40%, transparent);
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, transparent);
   border-radius: 999px;
   padding: 0.25rem 0.75rem;
   margin-bottom: 1rem;
+  font-weight: 500;
 }
 
 .hero h1 {
@@ -161,11 +180,15 @@ img {
 .btn--primary {
   background: var(--accent);
   border-color: var(--accent);
-  color: #041018;
+  color: #121514;
+  font-weight: 700;
 }
 
 .btn--primary:hover {
-  filter: brightness(1.05);
+  background: var(--accent-2);
+  border-color: var(--accent-2);
+  color: #121514;
+  filter: none;
 }
 
 .btn--disabled {
@@ -226,11 +249,40 @@ section h2 {
   margin-bottom: 0.4rem;
 }
 
-/* Screenshots placeholders */
+/* Screenshots */
 .shots {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.shot-item {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.shot-item figcaption {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.shot-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.shot-img:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.6);
 }
 
 .shot {
@@ -238,8 +290,8 @@ section h2 {
   border-radius: 18px;
   border: 1px dashed var(--line);
   background:
-    linear-gradient(160deg, #152038 0%, #0b1220 60%),
-    radial-gradient(circle at 70% 20%, color-mix(in srgb, var(--accent-2) 25%, transparent), transparent 45%);
+    linear-gradient(160deg, #1c2220 0%, #141716 60%),
+    radial-gradient(circle at 70% 20%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 45%);
   display: flex;
   align-items: center;
   justify-content: center;
