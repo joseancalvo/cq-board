@@ -37,7 +37,7 @@ Todo el funcionamiento está diseñado bajo la premisa de la privacidad y la aut
 ## 📱 Disponibilidad
 
 * **App Store (iOS)**: [Descargar en App Store](https://apps.apple.com/es/app/cq-board/id6807329150)
-* **Google Play (Android)**: *Próximamente*
+* **Google Play (Android)**: [Descargar en Google Play](https://play.google.com/store/apps/details?id=com.eyilabs.cqboard)
 
 ---
 
@@ -48,4 +48,4 @@ Para consultar más detalles, capturas y la [política de privacidad completa](h
 👉 **[https://joseancalvo.github.io/cq-board/](https://joseancalvo.github.io/cq-board/)**
 
 * **Autor / Desarrollador**: EA2EYI
-* **Contacto / Soporte**: [joseangelcalvo5@gmail.com](mailto:joseangelcalvo5@gmail.com)
+* **Contacto / Soporte**: [jose@eyilabs.com](mailto:jose@eyilabs.com)

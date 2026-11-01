@@ -245,12 +245,6 @@ img {
   filter: none;
 }
 
-.btn--disabled {
-  opacity: 0.55;
-  pointer-events: none;
-  cursor: not-allowed;
-}
-
 .hint {
   font-size: 0.85rem;
   color: var(--muted);
@@ -337,22 +331,6 @@ section h2 {
   transform: translateY(-4px);
   border-color: var(--accent);
   box-shadow: 0 14px 36px rgba(0, 0, 0, 0.6);
-}
-
-.shot {
-  aspect-ratio: 9 / 16;
-  border-radius: 18px;
-  border: 1px dashed var(--line);
-  background:
-    linear-gradient(160deg, #1c2220 0%, #141716 60%),
-    radial-gradient(circle at 70% 20%, color-mix(in srgb, var(--accent) 20%, transparent), transparent 45%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--muted);
-  font-size: 0.85rem;
-  padding: 1rem;
 }
 
 /* Footer */
