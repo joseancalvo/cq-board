@@ -254,6 +254,7 @@ img {
 /* Sections */
 section {
   padding: 2rem 0;
+  scroll-margin-top: 4.5rem;
 }
 
 section h2 {
@@ -266,6 +267,14 @@ section h2 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 1.25rem;
+}
+
+.card > :first-child {
+  margin-top: 0;
+}
+
+.card > :last-child {
+  margin-bottom: 0;
 }
 
 .features {
@@ -320,6 +329,7 @@ section h2 {
 
 .shot-img {
   width: 100%;
+  max-width: 240px;
   height: auto;
   border-radius: 20px;
   border: 1px solid var(--line);

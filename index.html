@@ -3,14 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#141716" />
   <title>CQ Board — Reloj UTC y notas para radioaficionados</title>
-  <meta name="description" content="CQ Board: reloj UTC y hora local, notas SOTA/POTA y localizador Maidenhead. App sencilla para radioaficionados. Sin cuenta." />
+  <meta name="description" content="CQ Board: reloj UTC y hora local, notas SOTA/POTA y localizador Maidenhead. App sencilla para radioaficionados. Gratis y sin cuenta." />
+  <link rel="canonical" href="https://joseancalvo.github.io/cq-board/" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://joseancalvo.github.io/cq-board/" />
   <meta property="og:title" content="CQ Board — Reloj UTC y notas para radioaficionados" />
-  <meta property="og:description" content="UTC, notas de activación SOTA/POTA y Maidenhead en una sola pantalla. Sin cuenta y 100% en tu dispositivo." />
-  <meta property="og:image" content="https://joseancalvo.github.io/cq-board/assets/CQBoard-icon.png" />
+  <meta property="og:description" content="UTC, notas de activación SOTA/POTA y Maidenhead en una sola pantalla. Gratis, sin cuenta y 100% en tu dispositivo." />
+  <meta property="og:image" content="https://joseancalvo.github.io/cq-board/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="CQ Board — Reloj UTC, notas de activación SOTA/POTA y localizador Maidenhead para radioaficionados" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="CQ Board — Reloj UTC y notas para radioaficionados" />
+  <meta name="twitter:description" content="UTC, notas de activación SOTA/POTA y Maidenhead en una sola pantalla. Gratis, sin cuenta y 100% en tu dispositivo." />
+  <meta name="twitter:image" content="https://joseancalvo.github.io/cq-board/assets/og-image.png" />
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="assets/CQBoard-icon.png" />
   <link rel="apple-touch-icon" href="assets/CQBoard-icon.png" />
 </head>
@@ -18,7 +28,7 @@
   <header class="site-header">
     <div class="wrap">
       <a class="logo" href="index.html">
-        <img src="assets/CQBoard-icon.png" alt="CQ Board" class="logo-icon" />
+        <img src="assets/CQBoard-icon.png" alt="CQ Board" class="logo-icon" width="32" height="32" />
         CQ <span>Board</span>
       </a>
       <nav class="nav" aria-label="Principal">
@@ -40,7 +50,7 @@
           App sencilla para SOTA, POTA y el día a día en radio:
           dos relojes (UTC y hora local, formato 24&nbsp;h), un bloc de notas
           para referencias y grid locators, y conversión GPS → Maidenhead cuando la necesites.
-          Todo se guarda en el móvil. Sin cuenta.
+          Todo se guarda en el móvil. Gratis y sin cuenta.
         </p>
 
         <div class="store-row">
@@ -68,14 +78,16 @@
     </section>
 
     <section id="no-hace">
-      <div class="wrap card">
+      <div class="wrap">
         <h2>Qué no hace</h2>
-        <ul class="not-list">
-          <li>No pide cuenta ni registro.</li>
-          <li>No obliga a tener red (funciona sin internet).</li>
-          <li>No publica logs ni contactos a la nube.</li>
-          <li>No es un logger completo ni un mapa de activaciones.</li>
-        </ul>
+        <div class="card">
+          <ul class="not-list">
+            <li>No pide cuenta ni registro.</li>
+            <li>No obliga a tener red (funciona sin internet).</li>
+            <li>No publica logs ni contactos a la nube.</li>
+            <li>No es un logger completo ni un mapa de activaciones.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -84,15 +96,15 @@
         <h2>Capturas</h2>
         <div class="shots">
           <figure class="shot-item">
-            <img class="shot-img" src="assets/IMG_3526.PNG" alt="CQ Board — Pantalla principal con relojes UTC y local, y notas de activación" loading="lazy" />
+            <img class="shot-img" src="assets/IMG_3526.PNG" alt="CQ Board — Pantalla principal con relojes UTC y local, y notas de activación" width="600" height="1303" loading="lazy" />
             <figcaption>Relojes y notas de activación</figcaption>
           </figure>
           <figure class="shot-item">
-            <img class="shot-img" src="assets/IMG_3527.PNG" alt="CQ Board — Modo noche con tema oscuro" loading="lazy" />
+            <img class="shot-img" src="assets/IMG_3527.PNG" alt="CQ Board — Modo noche con tema oscuro" width="600" height="1303" loading="lazy" />
             <figcaption>Modo noche (tema oscuro)</figcaption>
           </figure>
           <figure class="shot-item">
-            <img class="shot-img" src="assets/IMG_3528.PNG" alt="CQ Board — Modo día con tema claro" loading="lazy" />
+            <img class="shot-img" src="assets/IMG_3528.PNG" alt="CQ Board — Modo día con tema claro" width="600" height="1303" loading="lazy" />
             <figcaption>Modo día (tema claro)</figcaption>
           </figure>
         </div>
@@ -100,13 +112,15 @@
     </section>
 
     <section id="privacidad">
-      <div class="wrap card">
+      <div class="wrap">
         <h2>Privacidad</h2>
-        <p>
-          CQ Board guarda datos en tu dispositivo. El GPS solo se usa si pides el localizador Maidenhead.
-          No hay cuenta ni envío obligatorio a servidores.
-        </p>
-        <p><a href="privacy.html">Leer la política de privacidad completa →</a></p>
+        <div class="card">
+          <p>
+            CQ Board guarda datos en tu dispositivo. El GPS solo se usa si pides el localizador Maidenhead.
+            No hay cuenta ni envío obligatorio a servidores.
+          </p>
+          <p><a href="privacy.html">Leer la política de privacidad completa →</a></p>
+        </div>
       </div>
     </section>
 
@@ -126,7 +140,7 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <p>© <span id="y"></span> CQ Board · Built with ♥ by EA2EYI</p>
+      <p>© <span id="y">2026</span> CQ Board · EA2EYI</p>
       <p>
         <a href="privacy.html">Privacidad</a>
         ·

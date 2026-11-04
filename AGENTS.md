@@ -22,11 +22,13 @@ Este repositorio aloja el **sitio web oficial (landing page) y la política de p
 │       └── deploy-pages.yml  # Despliegue automático en GitHub Pages al hacer push a `main`
 ├── assets/
 │   ├── CQBoard-icon.png      # Icono / favicon de la aplicación (256x256)
+│   ├── og-image.png          # Imagen Open Graph / redes sociales (1200x630)
 │   ├── IMG_3526.PNG          # Captura: Relojes y notas de activación
 │   ├── IMG_3527.PNG          # Captura: Modo noche (tema oscuro)
 │   └── IMG_3528.PNG          # Captura: Modo día (tema claro)
 ├── css/
 │   └── styles.css            # Hoja de estilos única (variables CSS, layout, responsive)
+├── favicon.ico               # Favicon multirresolución (16x16, 32x32, 48x48)
 ├── index.html                # Landing page principal (Funciones, Capturas, Privacidad, Soporte)
 ├── privacy.html              # Política de privacidad oficial para App Store / Google Play
 └── README.md                 # Documentación general del repositorio

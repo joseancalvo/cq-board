@@ -11,7 +11,7 @@
 
 **CQ Board** es una herramienta ligera pensada para el día a día en radio y actividades en el campo (SOTA, POTA, etc.). Reúne en una única vista lo indispensable para operar: dos relojes simultáneos (hora UTC y local), un bloc de notas rápido para apuntar referencias o cazas, y conversión directa de coordenadas GPS a localizador Maidenhead (QTH Locator).
 
-Todo el funcionamiento está diseñado bajo la premisa de la privacidad y la autonomía: **sin registros, sin cuentas y con funcionamiento 100% offline.**
+Todo el funcionamiento está diseñado bajo la premisa de la privacidad y la autonomía: **gratis, sin registros, sin cuentas y con funcionamiento 100% offline.**
 
 ---
 
